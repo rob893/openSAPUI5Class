@@ -1,0 +1,13 @@
+<mvc:View
+	displayBlock="true"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="opensap.myapp.controller.App">
+	<Carousel>
+		<pages>
+			<Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8DRiPrq0ZSlNXrdEb6YVlcvmRB-iE92iSZy8jvTAGOcZ_94z" height="400px"/>
+			<Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8DRiPrq0ZSlNXrdEb6YVlcvmRB-iE92iSZy8jvTAGOcZ_94z" height="500px"/>
+		</pages>
+	</Carousel>
+	<Button text="Say Hello" press="onShowHello"></Button>
+</mvc:View>
