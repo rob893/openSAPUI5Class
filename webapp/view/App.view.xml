@@ -86,11 +86,10 @@
 													<ObjectStatus text="{
 														parts: [
 															{path: 'WeightUnit'},
-															{path: 'WeightMeasure}
+															{path: 'WeightMeasure'}
 														],
-														formatter: '.formatter.delivery'
-													}" 
-													/>
+														formatter : '.formatter.delivery'
+													}"/>
 												</firstStatus>
 											</ObjectListItem>
 										</items>
